@@ -1,7 +1,7 @@
 import requests
 
 #todo change url to your server url
-url = 'https://hrichiksite-improved-pancake-x45rgq5jjrc99r7-5000.preview.app.github.dev/infer'
+url = 'http://3.108.5.205:5000/infer'
 
 def upload_file():
     with open('trash.jpg', 'rb') as f:

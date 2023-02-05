@@ -5,8 +5,6 @@ from req import upload_file
 from servoturn import turn_servo
 
 
-
-
 def button_callback(channel):
     print(channel)
     print("Button was pushed!")
