@@ -9,6 +9,6 @@ def capture():
 
     # Save the image
     cv2.imwrite("trash.jpg", frame)
-
+    print('image done')
     # Release the camera
     cap.release()
