@@ -52,7 +52,7 @@ def calculate_duty_cycle(angle):
 
 
 API_URL = "https://api-inference.huggingface.co/models/pyesonekyaw/recycletree_materials"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer {REPLACE_WITH_HF_TOKEN}"}
 
 def query(filename):
     with open(filename, "rb") as f:
